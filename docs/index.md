@@ -14,9 +14,10 @@ All native C/C++ data types + `float2` and `double2`.
 
 ### Routines
 
-    void saveGPUrealtxt(const T *, const char *, const int);
-    
-Save an individual SAVE INDIVIDUAL REAL GPU MATRIX TO txt FILE
+    template <class T>
+    void saveGPUrealtxt(const T * d_in, const char *filename, const int M)    
+
+Save an individual real GPU matrix pointed to by `d_in` to a `txt` file whose filename is `filename`. `M` is the number of array elements.
 
 template <class T>
 void saveCPUrealtxt(const T *, const char *, const int);
