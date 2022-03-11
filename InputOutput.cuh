@@ -10,6 +10,8 @@ void saveCPUrealtxt(const T *, const char *, const int);
 template <class T>
 void saveGPUcomplextxt(const T *, const char *, const int);
 
+void saveGPUcomplextxt(const float2 *, const char *, const int);
+	
 void saveGPUcomplextxt(const double2 *, const char *, const int);
 
 template <class T>
