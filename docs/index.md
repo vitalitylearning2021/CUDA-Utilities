@@ -1,6 +1,6 @@
 The repository contains useful resources for CUDA programmers.
 
-# InputOutput
+## InputOutput
 
 Load or save individual CPU or GPU arrays to `txt` files. 
 
