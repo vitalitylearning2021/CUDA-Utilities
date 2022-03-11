@@ -2,15 +2,17 @@ The repository contains useful resources for CUDA programmers.
 
 # InputOutput
 
-Load or save individual CPU or GPU arrays to `txt` files. Allowed data types: `
+Load or save individual CPU or GPU arrays to `txt` files. 
 
-## Dependencies
+### Dependencies
 
 `BBComplex` and `Utilities`.
 
-## Allowed data types
+### Allowed data types
 
 All native C/C++ data types + `float2` and `double2`.
+
+### Routines
 
     void saveGPUrealtxt(const T *, const char *, const int);
     
