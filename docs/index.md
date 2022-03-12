@@ -12,6 +12,10 @@ Load or save individual CPU or GPU arrays to `txt` files.
 
 All native C/C++ data types + CUDA's `float2` and `double2`.
 
+### Parameters
+
+`prec_save`: number of saved decimal digits
+
 ### Routines
 
     template <class T>
