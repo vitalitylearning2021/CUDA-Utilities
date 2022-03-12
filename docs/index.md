@@ -10,7 +10,7 @@ Load or save individual CPU or GPU arrays to `txt` files.
 
 ### Allowed data types
 
-All native C/C++ data types + `float2` and `double2`.
+All native C/C++ data types + CUDA's `float2` and `double2`.
 
 ### Routines
 
